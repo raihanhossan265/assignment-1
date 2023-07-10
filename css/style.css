@@ -95,14 +95,7 @@ header{
     background-color: #477D1126;
     width: 200px;
 }
-/* .flower-item{
-    border-radius: 250px 250px 0px 0px;
-    padding: 100px 76px 0px 76px;
-} */
-.flower-item, img{
-    width: 200px;  
-    text-align: center;
-} 
+
 .flower-img{
     padding-bottom: 0px;
 }
@@ -194,10 +187,14 @@ header{
 
 .insta-flower-container{
     display: flex;
-    gap: 125px;    
+    gap: 25px;    
     margin-top: 30px;
 }
 
+.flower-item, img{
+    width: 275px;  
+    text-align: center;
+} 
 /* ----------Instagram css end ---------*/
 
 /* ----------letest-deals css Start ---------*/
