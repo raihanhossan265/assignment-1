@@ -79,21 +79,35 @@ header{
     margin: 20px 250px;
 
 }
+.featured-flower-item{
+    display: flex;
+    justify-content: space-around;
+}
 .first-flower{
-    background-color: #E55473;
-    width: 200px;
-    padding-top: 100px;
-    
+    background-color: #E55473;  
 }
 .second-flower{
     background-color: #0597A026;
-    width: 200px;
-    padding-top: 100px;
-
 }
 .third-flower{
     background-color: #477D1126;
+}
+.featured-single-pic{
+    padding: 110px 78px 0px 76px;
+    border-radius: 250px 250px 0px 0px;
     width: 200px;
+    height: 300px;
+}
+.featured-single-flower-name{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 32px;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+}
+.featured-flower-item{
+    margin-top: 30px;
 }
 
 .flower-img{
